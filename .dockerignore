@@ -1,0 +1,38 @@
+.git
+.venv
+.venv_py312
+.DS_Store
+.vscode/
+
+# Large raw data (mount as volume instead)
+ssr_3dfront_raw.zip
+data/3D-FRONT
+data/3D-FRONT.zip
+data/3D-FUTURE-assets
+data/3D-FUTURE-assets.old
+data/3D-FRONT-martin-rooms-stage-1
+data/3D-FRONT-martin-rooms-stage-2-dedup
+data/3D-FRONT-martin-rooms-stage-3
+data/3D-FRONT-martin-rooms-stage-3.zip
+data/front3d-room_meshes
+# data/metadata/model_info_3dfuture_assets_embeds.pickle  # needed at runtime by AssetRetrievalModule
+dataset-ssr3dfront/
+
+# Build artifacts
+__pycache__
+stan24sgllm.egg-info
+src/frontend/node_modules
+
+# Runtime dirs
+logs
+exps
+ckpts
+wandb
+eval/viz/
+eval/gen/
+eval/samples
+eval/interactive/
+eval/baselines/
+
+# Web
+web/
